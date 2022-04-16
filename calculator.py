@@ -7,7 +7,9 @@ from kivy.config import Config
 from math import sin, cos, tan, asin, acos, atan, exp, log
 
 """
-Простенький калькулятор на Kivy
+Простенький калькулятор на Kivy.
+Использует функцию exec, поэтому
+будьте оккуратней 
 """
 
 def tg(x):
